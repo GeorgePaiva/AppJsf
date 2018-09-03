@@ -14,66 +14,67 @@
 		<dependency>
 			<groupId>com.sun.faces</groupId>
 			<artifactId>jsf-api</artifactId>
-			<version>2.2.13</version>
+			<version>2.2.18</version>
 		</dependency>
 
 		<!-- JSF -->
 		<dependency>
 			<groupId>com.sun.faces</groupId>
 			<artifactId>jsf-impl</artifactId>
-			<version>2.2.13</version>
+			<version>2.2.18</version>
 		</dependency>
 
 		<!-- PrimeFaces -->
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
-			<version>5.3</version>
+			<version>6.2</version>
 		</dependency>
 
 		<!-- CDI -->
 		<dependency>
 			<groupId>javax.enterprise</groupId>
 			<artifactId>cdi-api</artifactId>
-			<version>1.2</version>
+			<version>2.0.SP1</version>
 			<scope>provided</scope>
 		</dependency>
 
-		<!--JBoss/Weld implementação de referência do CDI para Servlet Container(Exemplo:Tomcat) -->
+		<!-- https://mvnrepository.com/artifact/org.jboss.weld.servlet/weld-servlet -->
 		<dependency>
 			<groupId>org.jboss.weld.servlet</groupId>
 			<artifactId>weld-servlet</artifactId>
-			<version>2.2.6.Final</version>
-			<scope>runtime</scope>
+			<version>2.4.7.Final</version>
 		</dependency>
 
-		<!-- Métodos uteis para manipulação de String, métodos e etc -->
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.4</version>
+			<version>3.8</version>
 		</dependency>
 
 		<!-- PROVIDER JPA(HIBERNATE) -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
-			<version>4.3.0.Final</version>
+			<version>5.3.6.Final</version>
 		</dependency>
 
 		<!-- DEPENDENCIA MYSQL -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.37</version>
+			<version>8.0.12</version>
 		</dependency>
+
 
 		<!-- usado pelo Weld -->
 		<dependency>
 			<groupId>org.jboss</groupId>
 			<artifactId>jandex</artifactId>
-			<version>1.2.2.Final</version>
+			<version>2.0.5.Final</version>
 		</dependency>
+
 
 		<!-- Manipulação de XML -->
 		<dependency>
@@ -90,7 +91,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.5.1</version>
+				<version>3.8.0</version>
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
